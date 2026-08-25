@@ -42,7 +42,7 @@ skill-builder-pro does not write app code, design UIs, or configure servers. It 
 Copy this checklist into the conversation and tick items as you complete them:
 
 - [ ] Step 1: Discovery — examples shown to user, user described their skill need
-- [ ] Step 2: Plan + PRD — written to Desktop, presented for review
+- [ ] Step 2: Plan + PRD — written to the download folder, presented for review
 - [ ] Step 3: User approved → Implementation
        - [ ] Frontmatter + exclusions written (Pattern 1-2)
        - [ ] Context budget + progressive disclosure followed (Pattern 3-4)
@@ -111,16 +111,16 @@ Planning exists because building a skill without a PRD guarantees contradictory 
 
 From your discovery notes, analyze:
 
-1. **Scripts needed** — Based on workflow complexity. Default language: PowerShell (Windows). Only propose scripts for repeated deterministic operations.
+1. **Scripts needed** — Based on workflow complexity. Default language: Python 3 (Linux/bash). Only propose scripts for repeated deterministic operations.
 2. **Reference files needed** — Templates, patterns references, gotchas, examples. Only if the skill's domain is broad enough to need them.
 3. **Tool mapping** — Map each workflow step to its required tool (Read, Write, Bash, Grep, Glob, Question, Edit, Task).
-4. **Platform constraints** — Default: Windows (PowerShell, `$env:USERPROFILE`, forward-slash-compatible paths).
+4. **Platform constraints** — Default: Linux (bash, Z.ai workspace, paths under `/home/z/my-project/`).
 5. **Edge cases** — Identify 3-5 failure modes from the domain and workflow fragility.
 6. **Error handling** — Define what happens on failure: retry, report, or abort.
 
 ### Write the PRD
 
-Write a PRD document to `$env:USERPROFILE\Desktop\<skill-name>-PRD.md` with this structure:
+Write a PRD document to `/home/z/my-project/download/<skill-name>-PRD.md` with this structure:
 
 1. **Executive Summary** — What the skill does and why
 2. **Key Decisions** — Each decision with its rationale
@@ -132,7 +132,7 @@ Write a PRD document to `$env:USERPROFILE\Desktop\<skill-name>-PRD.md` with this
 
 ### Present for Review
 
-Say: "I've written the full plan to your Desktop at [path]. Please review and let me know if you want any changes before I start building."
+Say: "I've written the full plan to your download folder at [path]. Please review and let me know if you want any changes before I start building."
 
 ---
 

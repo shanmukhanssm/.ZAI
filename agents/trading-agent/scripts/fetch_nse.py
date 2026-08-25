@@ -67,7 +67,7 @@ def fetch(symbol, start_date, end_date):
     # rows come newest-first; reverse to oldest-first
     rows = list(reversed(rows))
 
-    outdir = os.path.join(os.path.expanduser("~"), ".opencode", "trading", "data")
+    outdir = "/home/z/my-project/download/trading-agent/data"
     os.makedirs(outdir, exist_ok=True)
 
     csv_path = os.path.join(outdir, f"{symbol}_NS_{start_date}_{end_date}.csv")

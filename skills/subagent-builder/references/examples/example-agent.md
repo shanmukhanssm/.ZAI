@@ -62,7 +62,7 @@ assistant: [Read src/auth.ts and Grep for related imports in parallel]
 
 Read these files for project context:
 - AGENTS.md — Partner behavior and communication guidelines
-- `.opencode/AGENTS.md` if it exists — Additional agent instructions
+- `/home/z/my-project/AGENTS.md` if it exists — Workspace standing instructions (Shanmukh's partner rules)
 - `package.json` — Dependencies and scripts (to understand the tech stack)
 
 ### Code review principles

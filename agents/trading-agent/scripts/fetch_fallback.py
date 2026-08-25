@@ -92,7 +92,7 @@ def fetch(symbol, rng="6mo"):
         print(json.dumps({"error": f"All routes failed for {symbol}"}))
         sys.exit(1)
 
-    outdir = os.path.join(os.path.expanduser("~"), ".opencode", "trading", "data")
+    outdir = "/home/z/my-project/download/trading-agent/data"
     os.makedirs(outdir, exist_ok=True)
     csv_path = os.path.join(outdir, f"{symbol.replace('.', '_')}_fallback_{rng}.csv")
 

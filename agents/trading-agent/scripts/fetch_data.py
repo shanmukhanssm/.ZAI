@@ -58,7 +58,7 @@ def fetch(symbol, start_date, end_date):
     cols = ["Date", "open", "high", "low", "close", "volume"]
     df = df[[c for c in cols if c in df.columns]]
 
-    outdir = os.path.join(os.path.expanduser("~"), ".opencode", "trading", "data")
+    outdir = "/home/z/my-project/download/trading-agent/data"
     os.makedirs(outdir, exist_ok=True)
 
     csv_path = os.path.join(outdir, f"{symbol.replace('.', '_')}_{start_date}_{end_date}.csv")

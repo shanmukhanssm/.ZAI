@@ -50,24 +50,24 @@ This skill applies 14 prompt design patterns derived from Feng Liu's Claude Code
 
 ## Variables
 
-Resolve these paths after Phase 1 (Discover) so they're ready for Phase 2. **IMPORTANT: These use `$env:USERPROFILE` — expand via a shell command before using as literal paths. On Windows, use PowerShell. On Linux/macOS, replace `$env:USERPROFILE` with `$HOME` and `Join-Path` / `\` with path concatenation.**
+Resolve these paths after Phase 1 (Discover) so they're ready for Phase 2. **These are Linux paths in the Z.ai workspace. New agents and skills are created inside the local .ZAI repo clone so everything stays version-controlled and populates the shared GitHub repo.**
 
-```powershell
+```bash
 # Run this after Phase 1, before Phase 2:
-$agentName = "<agent-name>"  # extracted during Discover (see Phase 1)
-$agentDir = Join-Path $env:USERPROFILE "Desktop\.opencode\agents\$agentName"
-$refDir = Join-Path $env:USERPROFILE "Pictures\shanmukha\$agentName"
-$skillBase = Join-Path $env:USERPROFILE "Desktop\.opencode\skills"
-$desktop = Join-Path $env:USERPROFILE "Desktop"
+agentName="<agent-name>"  # extracted during Discover (see Phase 1)
+agentDir="/home/z/my-project/desktop/.ZAI/agents/$agentName"
+refDir="/home/z/my-project/desktop/.ZAI/agents/$agentName/references"
+skillBase="/home/z/my-project/desktop/.ZAI/skills"
+download="/home/z/my-project/download"
 ```
 
 | Variable | Description |
 |---|---|
 | `<agent-name>` | Kebab-case name for the agent. Extracted from user's description during Discover (Phase 1). |
 | `<agent-dir>` | `$agentDir` — the agent's output directory |
-| `<ref-dir>` | `$refDir` — reference files directory. Stored under Pictures/shanmukha to isolate reference content from agent instructions, making both easier to navigate and update independently. |
+| `<ref-dir>` | `$refDir` — reference files directory. Stored inside the agent's `references/` subdirectory so reference content travels with the agent in the repo, keeping instructions and references independently navigable. |
 | `<skill-base>` | `$skillBase` — existing skills directory |
-| `<desktop>` | `$desktop` — user's Desktop for PRD files |
+| `<download>` | `$download` — user's download folder for PRD files. Everything Shanmukh must review or download goes here |
 
 **How to determine `<agent-name>`:** During Discover, extract a short kebab-case name from the user's description. Example: "I want a code reviewer for SQL queries" → `sql-reviewer`. Confirm with the user before Phase 2.
 
@@ -192,18 +192,18 @@ Read `references/8-section-template.md` (relative to this skill's directory). Ma
 
 ### Step 2: Scan for existing skills
 
-List the contents of `<skill-base>` to see existing skills. On Windows: `Get-ChildItem -Path "<skill-base>" -Directory`. On Linux/macOS: `ls -d "<skill-base>"/*/`. For each skill the agent needs, check if one already exists that covers it. If it exists, note how to integrate it (reference the skill in the agent's Domain Knowledge section with a 2-3 line note on how to use it).
+List the contents of `<skill-base>` to see existing skills. Use: `ls -d "<skill-base>"/*/`. For each skill the agent needs, check if one already exists that covers it. If it exists, note how to integrate it (reference the skill in the agent's Domain Knowledge section with a 2-3 line note on how to use it).
 
 ### Step 3: Write PRDs
 
-Write PRD files to `<desktop>`:
+Write PRD files to `<download>`:
 
 1. **Agent PRD** (`<agent-name>-PRD.md`): Covers the agent's architecture, 8-section structure decisions, key tradeoffs. For each skill it integrates, include a 2-3 line reference describing what the skill does and how the agent uses it. Reason: keeps the agent design decisions in one place without drowning in skill-level details.
 2. **Skill PRDs** (one per missing skill): Full PRD using the template at `references/prd-template.md` (relative to this skill's directory). These skills will be built by sub-subagents using `skill-builder-pro`. Reason: each skill PRD is an independent build contract that gets delegated to a sub-subagent. Mixing them into the agent PRD would make delegation impossible.
 
 ### Step 4: Present for review
 
-Tell the user: "I've written the PRDs to your Desktop. Please review <agent-name>-PRD.md and any skill PRDs, let me know if you want changes." Approval = user explicitly says "approve", "looks good", "go ahead", "proceed", or equivalent. Do NOT proceed on silence or ambiguous responses — ask "Can you confirm I should proceed?"
+Tell the user: "I've written the PRDs to your download folder. Please review <agent-name>-PRD.md and any skill PRDs, let me know if you want changes." Approval = user explicitly says "approve", "looks good", "go ahead", "proceed", or equivalent. Do NOT proceed on silence or ambiguous responses — ask "Can you confirm I should proceed?"
 
 ### Step 5: Iterate on feedback
 
@@ -267,7 +267,7 @@ Reference files cost zero tokens at idle — use them aggressively to keep the a
 
 ### Step 3: Write reference files
 
-Write any reference files to `<ref-dir>`. Reason: reference files are loaded on demand and don't need to clutter the agent's primary directory. Keeping them in Pictures/shanmukha isolates reference content from agent instructions, making both easier to navigate and update independently. These might include:
+Write any reference files to `<ref-dir>`. Reason: reference files are loaded on demand and don't need to clutter the agent's primary directory. Keeping them in the agent's `references/` subdirectory isolates reference content from agent instructions, making both easier to navigate and update independently. These might include:
 - Configuration templates
 - API documentation snippets
 - Workflow diagrams
@@ -283,8 +283,8 @@ For each approved skill PRD, delegate to a sub-subagent:
 
 ```
 Task the subagent with: "Build the skill described in
-<desktop>\<skill-name>-PRD.md. Use skill-builder-pro.
-Output to <skill-base>\<skill-name>\. 
+<download>/<skill-name>-PRD.md. Use skill-builder-pro.
+Output to <skill-base>/<skill-name>/. 
 Verify the skill builds successfully."
 Subagent type: general
 ```
@@ -302,14 +302,14 @@ Present the verification report to the user. Do NOT auto-fix — let the user de
 
 ### Step 6: Cleanup
 
-Delete PRD files from the Desktop after the user confirms they're no longer needed:
+Delete PRD files from the download folder after the user confirms they're no longer needed:
 
-```powershell
-Remove-Item -LiteralPath "<desktop>\<agent-name>-PRD.md" -ErrorAction SilentlyContinue
+```bash
+rm -f "<download>/<agent-name>-PRD.md"
 # Repeat for each skill PRD
 ```
 
-Reason: PRD files on the Desktop accumulate over time and clutter the workspace. Cleanup keeps the Desktop tidy and avoids confusing old PRDs with new ones.
+Reason: PRD files in the download folder accumulate over time and clutter the workspace. Cleanup keeps the download folder tidy and avoids confusing old PRDs with new ones.
 
 ## Tool Usage Policy
 
