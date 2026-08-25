@@ -1,0 +1,468 @@
+{
+  "capital": {
+    "total": 4009.90,
+    "invested": 1560.00,
+    "available": 2449.90
+  },
+  "holdings": [
+    {
+      "symbol": "CANBK.NS",
+      "name": "Canara Bank",
+      "sector": "Banking - PSU",
+      "entry_price": 130.00,
+      "entry_date": "2026-08-10",
+      "shares": 12,
+      "invested": 1560.00,
+      "stoploss": 120.00,
+      "target_1": 150.00,
+      "target_2": 162.00,
+      "risk_per_share": 10.00,
+      "reward_t1_per_share": 20.00,
+      "reward_t2_per_share": 32.00,
+      "risk_reward_t1": 2.00,
+      "risk_reward_t2": 3.20,
+      "max_loss": 120.00,
+      "current_price": 128.72,
+      "current_pnl_pct": -0.98,
+      "status": "active",
+      "notes": "Aug 24 intraday (10:16 AM, market OPEN): ₹128.73 -0.95% today (verified Yahoo ₹128.70 vs Google ₹128.73 ✓ 0.02%). -0.98% vs entry ₹130 = -₹15.36 unrealized. FRESH momentum_rank_v2: score DROPPED to 40 AVOID (weak). RSI 48.95 (falling from 56.53, now BELOW 50), below 20 DMA 128.89 & 200 DMA 139.29 (-7.6% below), RS 3m -5.09% (lagging Nifty), volume 0.44x weak. Fundamentals intact: P/E 5.88, EPS ₹21.89, div 3.26%, Q1 EPS beat +13.35% (rev -6.01% miss). CONFIRMED DEAD MONEY: -0.98% in 14 days. [STRATEGY Aug 24: SWAP CANBK → ASHOKLEY recommended. Momentum score 40 vs ASHOKLEY 75. It's a valid value hold (SL ₹120, P/E 5.9, ROE 16%) but the WRONG vehicle for a 'grow fast' goal — will not make fast money.]"
+    }
+  ],
+  "trade_history": [
+    {
+      "symbol": "NMDC.NS",
+      "name": "NMDC Ltd",
+      "sector": "Metals & Mining",
+      "entry_price": 85.00,
+      "entry_date": "2026-08-10",
+      "exit_price": 85.33,
+      "exit_date": "2026-08-14",
+      "shares": 15,
+      "invested": 1275.00,
+      "gross_proceeds": 1279.95,
+      "realized_pnl": 4.95,
+      "realized_pnl_pct": 0.39,
+      "exit_reason": "USER SOLD morning of Aug 14 (Q1 FY27 results day, 9:15 AM). Stock opened ₹85.33, high ₹85.35, then fell to ₹83.78 (-1.44%) by midday (GF). Exiting in the morning avoided the post-result drop. Net ~break-even after ~₹20-30 brokerage/charges.",
+      "note": "Fill price CONFIRMED by user: ₹85.33 (15 shares). Gross +₹4.95; net ≈ break-even to -₹15 after round-trip STT/brokerage/DP charges. Strategic win — avoided NMDC post-result drop (now ~₹84.00, below exit)."
+    }
+  ],
+  "watchlist": [
+    {
+      "symbol": "BANKINDIA.NS",
+      "name": "Bank of India",
+      "sector": "Banking - PSU",
+      "added": "2026-08-09",
+      "entry_zone": [140, 147],
+      "stoploss": 132.00,
+      "target_1": 165.00,
+      "target_2": 178.00,
+      "why": "P/E 5.62 (cheapest among large PSU banks), EPS ₹25.87, Q1 beat by 62.41% (EPS 6.74 vs est 4.15). Duplicates CANBK's PSU bank exposure. Board to discuss $1B MTN fundraise — mild dilution overhang.",
+      "risk_reward": 1.46,
+      "max_position": 13,
+      "technical_note": "Aug 20 11:44 AM: ₹143.03 +0.94% (GF). In entry zone [140-147]. R:R at 143.03 = (165-143.03)/(143.03-132) = 21.97/11.03 = 1.99 ✓. P/E 5.53 (cheapest PSU bank), Q1 double beat confirmed (EPS +62.41%, rev +7.61%). STILL SKIP: would concentrate ~80% PSU banks alongside CANBK + $1B MTN dilution overhang. Replacement-only (only buy if CANBK exits)."
+    },
+    {
+      "symbol": "SOUTHBANK.NS",
+      "name": "South Indian Bank",
+      "sector": "Banking - Private",
+      "added": "2026-08-09",
+      "entry_zone": [45, 48],
+      "stoploss": 43.00,
+      "target_1": 52.00,
+      "target_2": 58.00,
+      "why": "P/E 8.03, EPS ₹5.76, turnaround private bank. YoY profit growth intact, but Q1 FY27 net profit ₹3.78B dipped -7% QoQ and revenue 13.20B missed est 14.07B (-6.2%). Still cheap for a clean private bank. Diversifies from CANBK's PSU exposure.",
+      "risk_reward": 1.78,
+      "max_position": 25,
+      "technical_note": "Aug 20 11:44 AM: ₹46.00 +2.22% (GF). Back in entry zone [45-48] but below 20 DMA (~46.7), volume 6.36M vs 16M trigger. NO ENTRY. Trigger unchanged: close >46.70 with volume >16M."
+    },
+    {
+      "symbol": "COALINDIA.NS",
+      "name": "Coal India Ltd",
+      "sector": "Coal - Maharatna PSU",
+      "added": "2026-08-15",
+      "entry_zone": [380, 400],
+      "stoploss": 365.00,
+      "target_1": 440.00,
+      "target_2": 491.00,
+      "why": "ROE 28.2%, P/E 8.02, 6.53% div, Maharatna (world's largest coal producer, ~82% India output). Q1 FY27 DOUBLE BEAT: EPS ₹14.36 vs est ₹13.20 (+8.81%), revenue +3.03%. ROCE 35%. Verified Google ₹406.10 vs Screener ₹407 ✓. Caveat: ₹406 is above ₹200 budget range — 4 shares ≈ ₹1,624; slow-moving large-cap, better as diversifier than swing trade. Promoter holding -2% last qtr.",
+      "risk_reward": 2.0,
+      "max_position": 4,
+      "technical_note": "Aug 20 11:46 AM: ₹401.10 +0.28% (GF). Above entry zone [380-400], R:R at 401.10 = (440-401.10)/(401.10-365) = 38.90/36.10 = 1.08 (fails 1.5). No trigger. Ex-div Sep 4 (₹6.62). Dividend + value play, not a fast swing. Wait for pullback into [380-395]."
+    },
+    {
+      "symbol": "NATIONALUM.NS",
+      "name": "NALCO (National Aluminium)",
+      "sector": "Aluminium - Navratna PSU",
+      "added": "2026-08-15",
+      "entry_zone": [360, 380],
+      "stoploss": 345.00,
+      "target_1": 420.00,
+      "target_2": 445.00,
+      "why": "ROE 29.4%, debt-free, P/E 10.23, 3.06% div, Navratna. Q1 FY27 EPS ₹10.90 vs est ₹10.21 = +6.71% BEAT (rev -0.43% in-line). Profit growth 34.9% CAGR 5yr. -6.13% Fri is a commodity-price event (Norsk Hydro alumina ramp → aluminium prices fell, dragged Hindalco/Vedanta too), NOT company-specific. Falling knife — wait for stabilization >380 with volume before entry.",
+      "risk_reward": 2.0,
+      "max_position": 5,
+      "technical_note": "Aug 20 11:48 AM: ₹389.35 +0.72% (GF). Still above entry zone [360-380]; R:R at 389.35 = (420-389.35)/(389.35-345) = 30.65/44.35 = 0.69, FAILS 1.5. DON'T CHASE — wait for pullback into [360-380] (R:R ~2.0). Metal sector RRG-lagging, aluminium headwind persists. Ex-div Aug 24 (₹2.88). SL 345."
+    },
+    {
+      "symbol": "BEL.NS",
+      "name": "Bharat Electronics",
+      "sector": "Defence - Aerospace & Defence",
+      "added": "2026-08-20",
+      "entry_zone": [400, 412],
+      "stoploss": 398.00,
+      "target_1": 435.00,
+      "target_2": 456.00,
+      "why": "MOMENTUM + quality floor. ROE 27.4%, ROCE 36.4%, almost debt-free, Q1 FY27 double beat (EPS +4.1%, rev +9.56%), order book ₹72,258 Cr. Catalyst: DAC cleared ₹52,000 Cr defence procurement + Jefferies 34% upside. RSI 56 (room to run), MACD bullish, above 20/50 DMA.",
+      "risk_reward": 2.08,
+      "max_position": 4,
+      "technical_note": "Aug 21 intraday (11:05 AM): ₹413.30 +0.95% today (verified Yahoo ₹413.30 vs Google ₹413.30 ✓ 0.00%). FRESH momentum_rank_v2: score DROPPED to 59 WATCH (from BUY). RSI 59.78 (rising), MACD bullish (hist +1.44, strong), above 20 DMA 401.19 & 50 DMA 408.51 (recovering), but STILL BELOW 200 DMA 419.64 + death cross 20<50 flag, RS 3m -3.92% (lagging Nifty), volume 0.61x weak. Support 399.18, resistance 435.00. P/E 49.22, Q1 double beat, order book ₹72,258 Cr. NEW: Kotak sees up to 45% downside in HAL/BEL/MDL (current news) + Data Patterns won ₹585 Cr radar order FROM BEL. DOWNGRADED from PRIMARY PICK to WATCH — defence momentum thesis weaker than ASHOKLEY's. Only add on a clear reclaim of 200 DMA (₹420) with volume. Do NOT buy here as the swap target."
+    },
+    {
+      "symbol": "ASHOKLEY.NS",
+      "name": "Ashok Leyland",
+      "sector": "Auto - Commercial Vehicles",
+      "added": "2026-08-20",
+      "entry_zone": [170, 175],
+      "stoploss": 166.00,
+      "target_1": 194.00,
+      "target_2": 200.00,
+      "why": "MHCV upcycle. Nomura raised target to ₹194 (+12%). ROE 27.4%, 5yr profit CAGR 84.1%. RSI 59 healthy (not overbought), golden cross (20>50), above 20 DMA. Flags: promoter pledge 40.1%, Q1 EPS slight miss -2.09% (but revenue +33.9% beat). 11 sh @ 174 → T1 ₹194 = +₹220 profit.",
+      "risk_reward": 2.5,
+      "max_position": 11,
+      "technical_note": "Aug 24 intraday (10:16 AM, market OPEN): ₹173.29 +0.17% today (verified Yahoo ₹173.29 vs Google ₹173.29 ✓ 0.00%). FRESH momentum_rank_v2: score 75 BUY candidate — RANK #1 among affordable quality momentum. RSI 57.03 (sweet spot), above 20/50/200 DMA (171.92/163.22/170.00), golden cross 20>50, +14.71% 1m with strong acceleration (+12.74), RS 1m +12.57% (beating Nifty by 12.5 pts), only +0.75% above 20 DMA & +1.94% above 200 DMA = EARLY stage (NOT extended), -19.6% BELOW 52w high ₹215.42. MACD hist -0.41 (short-term stall → pullback entry near 20 DMA), volume 0.39x weak today. P/E 29.26, Q1 FY27 rev +33.89% beat (EPS -2.09% small miss), Nomura target ₹194, MHCV upcycle. Auto = #1 FPI inflow sector (+4393 Cr). Flag: promoter pledge 40.1% (below 60% veto). PRIMARY SWAP TARGET (replaces CANBK): buy 10 sh @ 170-174, SL 166 (below 20 DMA 171.92 & 200 DMA 170, ~1.6x ATR 4.28), T1 194, T2 200. R:R T1 = 21/7 = 3.0."
+    },
+    {
+      "symbol": "MOTHERSON.NS",
+      "name": "Samvardhana Motherson",
+      "sector": "Auto Ancillaries",
+      "added": "2026-08-20",
+      "entry_zone": [160, 165],
+      "stoploss": 156.00,
+      "target_1": 180.00,
+      "target_2": 190.00,
+      "why": "PURE momentum — fresh 52w high ₹172 (Aug 20), golden cross (20>50), 5yr profit CAGR 31.9%. BUT red flags: ROE 11.2% (<12% floor), Q1 EPS miss -5.16%, promoter stake -16% over 3yr, US IRS fine news today, RSI 72.8 overbought. WATCH — buy only on pullback to 160-165, do NOT chase at 170.",
+      "risk_reward": 2.5,
+      "max_position": 12,
+      "technical_note": "Aug 21 intraday: ₹168.50 (Yahoo, direct). FRESH momentum_rank_v2: score 79 (highest affordable score). RSI 68.8 (cooling from 72.43, back under 70), +15.75% 1m / +24.06% 3m, RS 1m +14.1%, fresh 52w high, 20-DMA rising, but volume 0.46x weak + 30% above 200 DMA. RSI fell 72→68 while price near highs = distribution risk. Q1 EPS miss -5.16%, US IRS fine, ROE 11.2%. NOT vetoed (momentum-first) BUT it has ALREADY run +24% in 3m — this is MID-RUN, not early. DO NOT CHASE at ₹168.5. WATCH: pullback to 160-165 (near 20 DMA). SL 156, T1 180, T2 190."
+    },
+    {
+      "symbol": "MMTC.NS",
+      "name": "MMTC Ltd",
+      "sector": "Trading - Gold/Silver (PSU)",
+      "added": "2026-08-20",
+      "entry_zone": [62, 64],
+      "stoploss": 59.50,
+      "target_1": 72.00,
+      "target_2": 78.00,
+      "why": "SPECULATIVE gold/silver momentum. +6.61% Aug 20 on 33.4M vol (~10x avg) on rising gold/silver prices. FAILS all fundamentals (ROE 5.23%, P/E 49, P/B 4.7 on book ₹14, core revenue ~nil, profit from non-operating income). PSU shell. Momentum-only: strict SL mandatory, do NOT average down. 30 sh @ 63 → T1 72 = +₹270.",
+      "risk_reward": 2.25,
+      "max_position": 31,
+      "technical_note": "Aug 21 intraday: ₹65.73 -0.99% today (Yahoo, direct route). FRESH momentum_rank_v2: score 77 BUY candidate. RSI 56.67 (rising from 51.7), MACD bullish (hist +0.25), above 20 DMA 63.42 (but 20<50 DMA 65.87 = death cross), 5-day volume 2.73x (strongest volume signal in universe), trend recovering. Support 60.31, resistance 71.64. Still PURE SPECULATION (core revenue ~nil). Price ₹65.73 is ABOVE entry zone [62-64]; R:R at 65.73 = (72-65.73)/(65.73-59.5) = 1.0, FAILS 1.5. WAIT for pullback to 62-64 (R:R ~2.5) or 60.58-62.11. SL 59.50, T1 72, T2 78. Only if gold/silver keeps rallying."
+    }
+  ],
+  "suggestions_log": [
+    {
+      "date": "2026-08-09",
+      "type": "weekly_research",
+      "top_sectors": ["PSU Banks", "Renewable Energy", "Defense & Aerospace", "Infrastructure", "Railways"],
+      "screened_count": 30,
+      "shortlisted_count": 7,
+      "recommended_count": 3,
+      "primary_picks": ["CANBK.NS", "NMDC.NS"],
+      "suggested_portfolio": {
+        "CANBK": {"shares": 12, "price": 131.61, "amount": 1579.32},
+        "NMDC": {"shares": 15, "price": 85.24, "amount": 1278.60},
+        "total_invested": 2857.92,
+        "cash_remaining": 1142.08
+      }
+    },
+    {
+      "date": "2026-08-12",
+      "type": "weekly_research",
+      "top_sectors": ["PSU Banks", "Metals & Mining", "Railways", "Private Banks", "Infrastructure"],
+      "screened_count": 6,
+      "shortlisted_count": 4,
+      "recommended_count": 1,
+      "primary_picks": ["SOUTHBANK.NS"],
+      "suggested_portfolio": {
+        "CANBK": {"shares": 12, "price": 132.66, "amount": 1591.92},
+        "NMDC": {"shares": 15, "price": 85.62, "amount": 1284.30},
+        "SOUTHBANK": {"shares": 25, "price": 46.34, "amount": 1158.50},
+        "total_invested": 4034.72,
+        "cash_remaining": 0
+      },
+      "key_changes": [
+        "NBCC removed from active buy — Q1FY27 revenue miss -17.70%",
+        "SOUTHBANK promoted to #1 pick — ex-dividend Aug 13, P/E 8.03, private bank diversification",
+        "NMDC SL tightened recommendation: ₹78 → ₹82 ahead of Aug 14 earnings",
+        "IRFC stays on watch — wait for confirmation above 52W low"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "type": "daily_run_eod",
+      "key_changes": [
+        "SOUTHBANK DOWNGRADED at EOD — volume only 0.5x avg on up day, below 20 DMA; 'buy tomorrow' call withdrawn",
+        "IRFC simple trigger fired (close 88.26 > 88, vol 5.81M > 1.5M) but needs stricter confirmation: close >88.50 with vol >7.3M",
+        "BANKINDIA skipped — R:R 1.46 at 145.4, below 1.5 minimum; duplicates CANBK exposure",
+        "NMDC earnings flagged as binary event Aug 13-14; gap risk noted; decision needed before Aug 14 open",
+        "CANBK healthy — RSI 59.9, MACD bullish, above 20/50 DMA, volume 1.17x avg"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "type": "daily_run_intraday",
+      "key_changes": [
+        "NMDC: EXIT recommended before 3:30 PM close today (₹85.03 at 11:25 AM) — earnings call tomorrow 9:15 AM, est EPS ₹1.99; SL ₹82 can gap through; re-enter only on post-result confirmation (beat + hold above 84.5)",
+        "CANBK: healthy hold — RSI 58.9, above 20/50 DMA, Q1 EPS beat +13.35%, SL buffer 8.9%",
+        "IRFC: confirmation NOT firing (price <88.50, volume pace ~5.8M vs 7.3M needed) — no entry today",
+        "SOUTHBANK: ex-div day, -1.13% to 45.70, below 20 DMA, volume pace ~9M vs 16M trigger — no entry",
+        "NBCC: ~₹92, still below entry zone after earnings miss — stay out",
+        "No new entries today; cash ₹1,165 (≈₹2,430 after NMDC exit if executed)"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "type": "daily_run_intraday_1146",
+      "key_changes": [
+        "NMDC ₹84.96 -1.09% (verified yf ₹85.03 vs GF ₹84.96, 0.08%) — EXIT CONFIRMED before 3:30 PM today; results out tomorrow 9:15 AM (est EPS ₹1.99 vs 2.24), SL ₹82 only 3.5% away, gap risk high",
+        "CANBK ₹131.56 -0.33% (verified yf ₹131.65 vs GF ₹131.56, 0.07%) — healthy HOLD, +1.2% unrealized, above 20/50 DMA, RSI 58.9, MACD bullish",
+        "BANKINDIA ₹144.71 — R:R improved to 1.60 (passes 1.5) but STILL SKIP: would make portfolio ~85% PSU banks; replacement-only",
+        "IRFC ₹88.19 — trigger not firing (day high 88.45 < 88.50, vol ~6M pace vs 7.3M) — no entry",
+        "NBCC ₹92.19 — below entry zone, revenue miss -17.70% confirmed on GF — stay out",
+        "SOUTHBANK ₹45.63 ex-div — below 20 DMA, vol pace ~9M vs 16M trigger — no entry",
+        "No new entries. After NMDC exit: ~₹2,415 cash. Next decision: NMDC results tomorrow 9:15 AM."
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "type": "user_decision_evening",
+      "key_changes": [
+        "USER DECISION: consciously holding NMDC (15 shares @ 85, entry cost 1275) through tomorrow 9:15 AM Q1 results — 'risky game', accepted binary-event risk. Exit window today has passed; exposure is now locked in overnight.",
+        "Worst case if gap-down through SL ₹82: -₹45 (at 82) up to ~-₹75 to -₹105 if it gaps to 80-78. Upside if beat: +₹180 to T1 97, +₹300 to T2 105. Risk:reward ~1:2 to 1:3.",
+        "CANBK confirmed healthy hold: ₹131.46 +1.12%, SL ₹120 (max -₹120), targets 150/162."
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "type": "user_sold_nmdc",
+      "key_changes": [
+        "USER SOLD NMDC morning of Aug 14 — exited 15 shares. Recorded exit at est. ₹85.33 (today's open; user said 'sold this morning'). Gross realized +₹4.95 (+0.39%), net ~break-even after brokerage.",
+        "NMDC post-result price ₹83.78 -1.44% by midday (GF single-source; yfinance rate-limited) — morning exit avoided the drop. Timing was good.",
+        "NMDC moved holdings → trade_history. Capital now: invested ₹1,560 (CANBK only), cash ₹2,444.95, total ₹4,004.95.",
+        "Pending: CONFIRM actual NMDC fill price from user to lock realized P&L and metrics."
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "type": "deep_research_new_stocks",
+      "key_changes": [
+        "DEEP SCREEN of 5 fresh candidates (renewables/power/private-banking/housing-finance). RESULT: NO 'better' stock passes both fundamental + technical screens. Q1 season mixed-to-weak; Fri Aug 14 broad down day (only INFRA +0.28% and MEDIA +0.96% positive).",
+        "IREDA ₹116.49: Q1 FY27 EPS ₹1.21 vs est ₹2.10 = -42.38% MISS. Near 52W low 108.65. SKIP.",
+        "SUZLON ₹47.20: Q1 EPS ₹0.22 vs est ₹0.31 = -29% MISS, P/E 20.7. SKIP.",
+        "IDFC FIRST BANK ₹85.62: headline Q1 EPS +67.57% beat, BUT Screener ROE only 3.76% and profit inflated by ₹7,956 Cr other income; P/E 32 near 52W high 88.76. Expensive + low quality. SKIP.",
+        "NHPC ₹76.80: Q1 beat both lines (+7.92% EPS, +2.72% rev) BUT Screener ROE 9.32% (<12% floor), 5yr sales growth only 3.78%, downtrend (76.8 vs 89.2 high). SKIP.",
+        "HUDCO ₹189.95: cheap P/E 8.94 + 3.19% div BUT declining, ex-div Mon Aug 17. WATCH ONLY.",
+        "CANBK confirmed STILL the best risk-adjusted holding: P/E 5.99, P/B 0.96, ROE 16.1%, Q1 beat. Verified Google ₹131.25 vs Screener ₹131 ✓.",
+        "NBCC REMOVED from watchlist — broke down -3.21% on 10.14M volume (distribution), P/E ballooned to 32.5 after Q1 miss.",
+        "Verdict: NO new entry. Cash ₹2,445 is a valid position in a weak tape. Only BANKINDIA (P/E 5.56, Q1 double-beat) passes fundamentals, but it concentrates ~80% in PSU banks."
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "type": "sector_rotation_scan",
+      "key_changes": [
+        "FULL 28-sector RRG scan (flashfinance, 14 Aug). Market phase: 'Broad but defensive', 20/28 above 200-DMA, cyclicals -0.4% vs defensives.",
+        "LEADING (outperforming + gaining): Digital +10.9%, Consumer Durables +9.5%, Auto +7.3%, Transport & Logistics +8.2%, IT +8.4%, Consumption, Manufacturing.",
+        "IMPROVING (turning up): PSU Bank +4.1%, Bank +2.3%, Services, Oil & Gas. ← CANBK's sector sits here (rank #16), NOT lagging.",
+        "LAGGING (avoid): Metal, Infrastructure, Energy, Capital Markets, Commodities, FMCG, PSE, Private Bank, Financial Services, CPSE.",
+        "Defence is #1 RS score (85) but now 'Weakening'. Media #3 'Weakening'.",
+        "Checked concrete 52w-high 'winners': Welspun Living (P/E 56.6, ROE 4.47%, P/B 3.2) and Zee (P/E 46.9, ROE 2.4%, promoter 3.99%). Both LOW-QUALITY momentum — FAIL fundamentals.",
+        "CONCLUSION: sector leaders are expensive/low-ROE momentum; quality is in the cheap value (PSU banks) already held. No change to positions."
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "type": "weekly_research_full",
+      "top_sectors": ["PSU Banks", "Coal (Maharatna)", "Aluminium", "Private Banks"],
+      "screened_count": 14,
+      "shortlisted_count": 5,
+      "recommended_count": 2,
+      "primary_picks": ["COALINDIA.NS", "NATIONALUM.NS"],
+      "sector_findings": [
+        "PSU BANKS = #1 (fundamental). Q1 beats across board (CANBK +13.35%, BANKINDIA +62.41%), P/E 5-6, ROE 15%+. RRG confirms PSU Bank is IMPROVING (rank #16). Already own CANBK.",
+        "COAL = quality. Coal India ROE 28.2%, P/E 8.02, Q1 double-beat (+8.81% EPS, +3.03% rev), 6.53% div, ROCE 35%. But ₹406.",
+        "ALUMINIUM = quality but commodity headwind. NALCO ROE 29.4%, debt-free, Q1 beat +6.71%, but -6.13% Fri (Norsk Hydro alumina ramp → aluminium prices fell). Metal sector is RRG-LAGGING — fundamental quality vs sector momentum tension.",
+        "ENERGY/POWER PSUs = LOW QUALITY. NHPC ROE 9.32%, SJVN 4.52%, GAIL 8.71% — all fail ROE>12%. RRG confirms Energy lagging.",
+        "RENEWABLES = Q1 misses (IREDA -42.38%, Suzlon -29%). Skip.",
+        "KEY PATTERN: quality (ROE>12%) non-bank names are ₹275-407 (Coal India, NALCO, NLC India); affordable non-bank PSUs (SAIL/NHPC/SJVN/GAIL) all ROE<12%. Quality concentrated in PSU banks + two Maharatna/Navratna miners."
+      ],
+      "key_changes": [
+        "Added COALINDIA.NS and NATIONALUM.NS to watchlist (ROE>28%, Q1 beats, cheap P/E) — watch-only for entry zones, NOT immediate buys (both priced ₹376-406, and Metal/Energy are RRG-lagging sectors).",
+        "Rejected 8 names for ROE<12% or Q1 miss: SAIL 6.43%, NHPC 9.32%, SJVN 4.52%, GAIL 8.71%, Manappuram 6.97%, IREDA (miss), Suzlon (miss), IDFC First 3.76%.",
+        "NLC India ROE 17.5% passes but Q1 net profit -65% QoQ — left OFF watchlist.",
+        "CANBK remains single best holding: ROE 16.1%, P/E 5.99, P/B 0.96, Q1 beat."
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "type": "daily_run_intraday",
+      "key_changes": [
+        "CANBK ₹129.65 -1.22% (GF single-source; yfinance rate-limited, NSE 403). -0.27% vs entry ₹130 = -₹4.20. Broad red tape, pullback market-wide not stock-specific. HOLD, SL ₹120 (7.44% buffer).",
+        "BANKINDIA ₹142.46 -1.14%, in entry zone, R:R 2.15 ✓ — STILL SKIP (concentration ~80% PSU banks). Replacement-only.",
+        "IRFC ₹86.86 -0.81%, only 0.98% above 52w low 86.02 — no entry, watch the line.",
+        "SOUTHBANK ₹45.24 -1.09%, below 20 DMA, low volume — no entry.",
+        "COALINDIA ₹408.15 +0.26%, above entry zone — no trigger, watch.",
+        "NALCO ₹384.65 +2.30% green reversal above 380 BUT weak volume (2.66M vs 14.95M Fri) + metal sector lagging — NOT confirmed, need hold >380 into close.",
+        "No new stock passes both fundamental + technical screens this tape. Cash ₹2,445 is a valid position. No action needed today."
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "type": "daily_run_eod",
+      "key_changes": [
+        "CANBK closed ₹131.10 (+0.85% vs entry ₹130 = +₹13.20 unrealized), recovered from morning low ₹129.10 — HOLD, SL ₹120 (8.46% buffer). Verified Google ₹131.10 vs Screener ₹131.00 (0.08% diff).",
+        "BANKINDIA ₹143.25 -0.59%: in entry zone, R:R 1.93 ✓, Q1 double beat (EPS +62.41%, rev +7.61%) — STILL SKIP (concentration ~80% PSU banks with CANBK).",
+        "IRFC ₹87.40 -0.19%: back inside entry zone (87) but low ₹86.20 tested 52W low ₹86.02, downtrend intact, P/E 15.88 — NO ENTRY.",
+        "SOUTHBANK ₹45.25 -1.07%: in zone but below 20 DMA (~46.7), volume 5.70M vs 16M trigger — NO ENTRY.",
+        "COALINDIA ₹407.10 flat: above entry zone [380-400], no trigger — wait for pullback. Ex-div Sep 4 (₹6.62).",
+        "NALCO ₹389.20 +3.51% on 9.72M vol: strong bounce above entry zone [360-380] but R:R at 389.20 = 0.70 (fails 1.5). DON'T CHASE — wait for pullback to 360-380 (R:R ~2.0). Ex-div Aug 24.",
+        "Verdict: NO new entry. No stock fires a valid trigger with R:R ≥1.5 this tape. Cash ₹2,445 is a valid position."
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "type": "daily_run_intraday",
+      "key_changes": [
+        "CANBK ₹128.57 -0.41% intraday (verified Google ₹128.57 vs Screener ₹129.00 ✓ 0.33%). -1.10% vs entry ₹130 = -₹17.16 unrealized. SL ₹120 = 6.7% buffer. Two-day drift from ₹131.10; fundamentals intact (P/E 5.87-5.92, ROE 16.1%, Q1 EPS beat +13.35%). Minor negative: Jhunjhunwala trimmed stake + dividend-cut rumor. HOLD, SL ₹120 unchanged.",
+        "IRFC ₹85.38 -0.85%: made NEW 52-week low ₹85.30 (broke prior ₹86.02 'line in the sand'). Downtrend accelerating. REMOVED from watchlist per rule.",
+        "BANKINDIA ₹141.91 -0.13%: in entry zone [140-147], R:R 2.33 ✓, Q1 double beat — STILL SKIP (would concentrate ~80% PSU banks with CANBK).",
+        "SOUTHBANK ₹44.86 -0.51%: now BELOW entry zone [45-48], below 20 DMA, volume 3.01M vs 16M — NO ENTRY.",
+        "COALINDIA ₹399.35 -1.86%: pulled back into top of entry zone [380-400] but R:R at 399.35 = 1.18 (fails 1.5). Need ≤₹395 (ideally 380-390) with stabilization. NO ENTRY yet.",
+        "NATIONALUM ₹384.20 -0.98%: still above entry zone [360-380], R:R 0.91 — NO ENTRY. Ex-div Aug 24 (₹2.87).",
+        "yfinance rate-limited again — no fresh RSI/MACD/DMA/ATR. Prices from Google Finance + Screener only.",
+        "Verdict: NO new entry (no name fires a valid ≥1.5 R:R trigger). Cash ₹2,445 is a valid position. One watchlist cleanup (IRFC removed)."
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "type": "daily_run_intraday",
+      "key_changes": [
+        "CANBK ₹130.05 +0.78% (verified Google ₹130.09 vs Screener ₹130.00 ✓ 0.07%). Back to breakeven vs entry ₹130 (+₹0.54 unrealized). Recovered from Aug 19 low ₹128.57. Fundamentals intact (P/E 5.94, ROE 16.1%, Q1 EPS beat +13.35%). HOLD, SL ₹120 unchanged (7.7% buffer).",
+        "BANKINDIA ₹143.03 +0.94%: in entry zone, R:R 1.99 ✓, Q1 double beat — STILL SKIP (would concentrate ~80% PSU banks with CANBK). Replacement-only.",
+        "SOUTHBANK ₹46.00 +2.22%: back in zone [45-48] but below 20 DMA, volume 6.36M vs 16M trigger — NO ENTRY.",
+        "COALINDIA ₹401.10 +0.28%: above entry zone, R:R 1.08 (fails 1.5) — NO ENTRY. Ex-div Sep 4.",
+        "NATIONALUM ₹389.35 +0.72%: above entry zone, R:R 0.69 (fails 1.5) — NO ENTRY. Ex-div Aug 24.",
+        "yfinance still rate-limited — no fresh RSI/MACD/DMA/ATR. Prices from Google Finance + Screener.",
+        "Verdict: NO new entry (no name fires a valid ≥1.5 R:R trigger). Cash ₹2,450 is a valid position."
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "type": "aggressive_pivot",
+      "key_changes": [
+        "USER requested aggressive approach: 5-10 working day holds, target ~₹200/trade. Pivot from value/support-bounce to momentum/breakout screening.",
+        "DATA FIX: yfinance quote rate-limited (persistent) + NSE 503. Built fetch_fallback.py using Yahoo chart API (direct route works). Verification via Google Finance + Screener.",
+        "Scanned 13 momentum candidates. Downtrend laggards rejected: RVNL, INOXWIND, TATAPOWER, JWL, IRCON, CROMPTON, BSOFT, HUDCO. SONACOMS overbought (RSI 73) + too pricey.",
+        "TOP 3 momentum: BEL (RSI 56, MACD bullish, defence catalyst, ROE 27.4%), ASHOKLEY (RSI 59, Nomura target ₹194, ROE 27.4%), MOTHERSON (fresh 52w high but RSI 72.8 + Q1 miss + IRS fine).",
+        "RECOMMEND SWAP: CANBK (dead money +0.04%/10d) → BEL (4 sh @ 410, SL 398, T1 435, T2 456). RECOMMEND ADD: ASHOKLEY (11 sh @ 174, SL 166, T1 194 = +₹220). MOTHERSON = watch, don't chase.",
+        "HONEST REALITY CHECK: ₹200 on a ₹1,900 position = ~10.5% move in 5-10 days — achievable on momentum breakouts but NOT every trade. Momentum win rate ~40-50%; stoploss discipline keeps losers small. 'Must profit every time' is impossible — no one can promise that."
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "type": "momentum_scan_additional",
+      "key_changes": [
+        "MOMENTUM SCAN (down tape, Nifty -0.69%): screened NSE top gainers + 52w highs + volume shockers for affordable momentum (₹10-200).",
+        "MMTC ₹66.26 +6.61% on 33.4M vol (~10x) — gold/silver rally catalyst (NDTV: 'PSU stock jumps 8% amid rising gold/silver'). Added as SPECULATIVE momentum (ROE 5.23%, P/E 49, P/B 4.7 — pure gold-price momentum, not quality). Entry 62-64, SL 59.50, T1 72, T2 78.",
+        "IRCON ₹126.87 +3.47%, Q1 revenue beat +21.5% — NOT added: still a downtrend bounce (52w high 189.50, now 127), consistent with prior 'downtrend laggard' rejection.",
+        "REJECTED on fundamentals: Bandhan Bank (Q1 EPS miss -10.25% + guidance cut), Devyani (trailing losses), RITES (Q1 miss, P/E 25), Zee (ROE 2.4%), Reliance Power (stressed).",
+        "CONFIRMED tier-1 aggressive picks remain BEL + ASHOKLEY (quality momentum, ROE 27.4%). MMTC = tier-2 speculative gold play only. MOTHERSON = watch (RSI 72.8 overbought)."
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "type": "aggressive_10day_strategy_final",
+      "key_changes": [
+        "FULL 10-DAY AGGRESSIVE STRATEGY delivered (8:47 PM IST, market closed). All prices dual-source verified (Yahoo vs Google Finance, all diff <0.41%).",
+        "PLAN: (1) SELL/SWAP CANBK (dead money +0.04%/10d, -₹2.88 unrealized) → frees ₹1,557. (2) BUY BEL 4 sh @ ~408 (SL 398, T1 435, T2 456, R:R 2.7). (3) BUY ASHOKLEY 10 sh @ ~173.5 (SL 166, T1 194, T2 200, R:R 2.73). Total invested ₹3,367, cash ₹643.",
+        "BEL = primary: RSI 55.4 healthy, MACD bullish strengthening, Q1 double beat (EPS +4.10%/rev +9.56%), order book ₹72,258 Cr, DAC cleared ₹52,000 Cr. CAUTION: Kotak sees 45% downside in defence (HAL/BEL/MDL) — but BEL already -14% off 52w high.",
+        "ASHOKLEY = secondary: RSI 58, golden cross, Nomura target ₹194 (+12%), MHCV upcycle. CAUTION: MACD histogram -0.11 (stall) + volume 0.26x weak → prefer entry 170-172.",
+        "MOTHERSON = DO NOT CHASE (RSI 71.79 overbought, 6.31% above 20 DMA, Q1 miss, IRS fine). Watch 160-165 pullback.",
+        "MMTC = WAIT (12.69x volume breakout on gold/silver rally BUT chasing at 66 gives R:R 0.81). Watch 62-64 pullback (R:R 2.57). Speculative shell.",
+        "REALITY CHECK: combined max loss if both SL hit = ₹115 (2.87% capital). Combined T1 upside = ₹313 (7.8%), T2 = ₹457 (11.4%). Momentum win rate 40-50% — stoploss discipline is the edge, not guaranteed wins."
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "type": "live_momentum_scan_paper_trade",
+      "universe_size": 30,
+      "raw_top5": [
+        {"symbol": "HAL.NS", "score": 80, "price": 4998.0, "rsi": 66.4, "note": "unaffordable (₹4,998 > 50% cap)"},
+        {"symbol": "CUPID.NS", "score": 72, "price": 282.43, "rsi": 67.2, "note": "late-stage, +126% in 3m"},
+        {"symbol": "MOTHERSON.NS", "score": 70, "price": 169.58, "rsi": 71.8, "note": "overbought RSI 72"},
+        {"symbol": "BAJAJHIND.NS", "score": 65, "price": 23.33, "rsi": 82.4, "note": "PARABOLIC +32% 1w"},
+        {"symbol": "WEL.NS", "score": 60, "price": 136.04, "rsi": 64.9, "note": "affordable, sweet-spot RSI"}
+      ],
+      "buyable_disciplined_picks": [
+        {"symbol": "WEL.NS", "price": 136.04, "rsi": 64.9, "rs_3m": 39.6, "note": "cleanest affordable pick: RSI sweet spot, strong RS, above 20/50 DMA, but -25.9% off 52w high (recovering after peak)"},
+        {"symbol": "MMTC.NS", "price": 66.27, "rsi": 59.2, "rs_3m": -0.27, "note": "gold/silver one-day spike 12.4x vol; weak RS, speculative"},
+        {"symbol": "ASHOKLEY.NS", "price": 173.8, "rsi": 58.0, "rs_3m": 3.48, "note": "golden cross but weak volume 0.26x; weakest signal of the three"}
+      ],
+      "skip_disciplined": [
+        "CUPID (late +126%)", "MOTHERSON (overbought RSI 72)", "BAJAJHIND (parabolic RSI 82)", "HAL/MAZDOCK/BDL/COCHINSHIP (price ₹1,300-5,000 unaffordable for ₹4,000)"
+      ],
+      "tracking": "PAPER TRADE locked Aug 20 EOD. Re-evaluate ~Sep 20 (1 month). Watch forward returns of raw top-5 + buyable 3 vs universe avg.",
+      "key_insight": "Strongest momentum (HAL score 80) is in unaffordable defence names; affordable candidates are either extended (CUPID/MOTHERSON/BAJAJHIND) or second-tier (WEL/MMTC/ASHOKLEY). No clean early sweet-spot pick exists today."
+    },
+    {
+      "date": "2026-08-20",
+      "type": "system_compiled",
+      "key_changes": [
+        "MOMENTUM SYSTEM FORMALIZED. Created/updated the full reusable toolset + documentation.",
+        "Scripts saved in scripts/: momentum_rank_v2.py (PRIMARY scorer 0-100 + BUY/WATCH/AVOID), momentum_rank.py (v1, superseded), backtest.py (cheat-proof backtester), fetch_fallback.py, indicators.py, screener.py, validate.py.",
+        "Reference files updated: momentum-system.md (NEW — compiled playbook + all learnings), springpad-methodology.md (momentum-first), position-sizing.md (1-month holds + trailing stops + win-rate math), indicators-guide.md (relative strength + sweet spot).",
+        "AGENTS.md updated: identity→momentum analyst, Weekly Research Mode→momentum scan with v2 ranking, added Momentum Trading Strategy section, scripts table + reference table updated.",
+        "STRATEGY SHIFT (user-driven): value-first → momentum-first. Fundamentals are now a veto-filter only (avoid fraud/implosion), NOT an entry requirement. Hold horizon 5-30 days (user: ~1 month).",
+        "KEY LEARNINGS LOCKED: survivorship bias (CUPID was already 6.5x by late July; BAJAJHIND had no signal until 3 weeks later), win rate ~40-50% (profit from bigger wins not more wins), nobody can predict tomorrow (stop-loss is the edge), July-25 backtest top-5 +16.4% vs universe +5.3% (3x, but small sample + bull market).",
+        "PAPER TRADE ACTIVE: raw top-5 (HAL/CUPID/MOTHERSON/BAJAJHIND/WEL) + buyable 3 (WEL/MMTC/ASHOKLEY) locked Aug 20 EOD. Re-evaluate Sep 20."
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "type": "daily_run_intraday_momentum",
+      "key_changes": [
+        "MOMENTUM RANK (13 symbols, Aug 21 intraday ~11:06 AM, regime RISK-ON, Nifty +1.65% 1m / +2.3% 3m). All prices dual-source verified (Yahoo vs Google, diff <0.07%).",
+        "RANK: HAL 81 (unaffordable ₹5,039), MOTHERSON 79, WEL 79, MMTC 77, ASHOKLEY 75, NATIONALUM 75, CUPID 71, BEL 59, BAJAJHIND 58 (AVOID parabolic), CANBK 53, BANKINDIA 40, SOUTHBANK 14, COALINDIA 11.",
+        "TOP QUALITY MOMENTUM PICK = ASHOKLEY (75): RSI 56.97 sweet spot, golden cross, above 20/50/200 DMA, +15% 1m accelerating, RS 1m +13.4%, 20% below 52w high. NOT extended. Buy 10 sh @ ~173, SL 166, T1 194, T2 200, R:R 2.83.",
+        "MOTHERSON (79) = highest affordable score but MID-RUN: +24% 3m, fresh 52w high, RSI cooling 72→68 = distribution risk. DO NOT CHASE. Watch pullback 160-165.",
+        "MMTC (77) = speculative gold/silver, 5d vol 2.73x strong, but price above entry zone. Wait for 62-64 pullback (R:R ~2.5).",
+        "BEL DOWNGRADED primary→WATCH (score 59): still below 200 DMA ₹419.64, death cross flag, Kotak '45% downside' caution current. Not the swap target anymore.",
+        "WEL (79) + CUPID (71) + BAJAJHIND (58) = chase-risk (already ran +48%/+122%/parabolic). AVOID buying tops.",
+        "CANBK (53) dead money confirmed: ~0% in 11 days, RSI 51 falling, below 200 DMA, weak volume. HOLD (SL 120 not hit) but wrong vehicle for fast money → SWAP to ASHOKLEY recommended.",
+        "RECOMMENDATION: SWAP CANBK (frees ₹1,552) + buy ASHOKLEY 10 sh @ ~173 (₹1,733, 43% of capital). Max loss ₹73 (1.8%), T1 gain ₹207, T2 ₹267."
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "type": "swap_recommendation_momentum",
+      "key_changes": [
+        "SWAP TARGET CONFIRMED (Aug 24, 10:16 AM, market OPEN). Fresh momentum_rank_v2 on 7 candidates. Prices dual-source verified (Yahoo vs Google, all diff <0.02%).",
+        "RANK: MOTHERSON 79, WEL 79, MMTC 77, ASHOKLEY 75, NATIONALUM 75, BEL 47 (AVOID), CANBK 40 (AVOID).",
+        "ANSWER = ASHOKLEY (75), the ONLY candidate that is BOTH high-score AND EARLY: RSI 57.03 sweet spot, golden cross, above all DMAs, only +1.94% above 200-DMA, +14.71% 1m accelerating, RS 1m +12.57%, -19.6% below 52w high. Auto = #1 FPI-inflow sector. Nomura ₹194.",
+        "REJECTED alternatives: MOTHERSON (79 but RSI 69.2 falling + 30% above 200-DMA = mid-run/distribution, ROE 11.2%, IRS fine), WEL (79 but +46% 3m = chase, RSI crashed 88→62, ROE 4.47%), MMTC (77 speculative shell, RS 3m negative), NATIONALUM (75 but RS 3m -8.63% = laggard, metal RRG-lagging), BEL (47 AVOID, below 200-DMA).",
+        "PLAN: SELL CANBK 12 sh @ ~₹128.73 (frees ~₹1,545) → BUY ASHOKLEY 10 sh @ 170-174 (₹1,730, 43% capital). SL 166 (below 20 DMA 171.92 & 200 DMA 170, ~1.6x ATR), T1 194, T2 200. R:R T1 = 3.0. Max loss ₹70 (1.75% capital), T1 gain ₹210, T2 gain ₹270.",
+        "NOTE: ASHOKLEY is ALSO the #1 FFMP paper-trade pick (Auto = top FPI-inflow sector) — real momentum strategy and FFMP validation both converge on the same name."
+      ]
+    }
+  ],
+  "metrics": {
+    "win_rate": 100,
+    "total_pnl": 4.95,
+    "total_trades": 1,
+    "profitable_trades": 1,
+    "loss_trades": 0
+  },
+  "last_run": "2026-08-24T10:16:00+05:30",
+  "last_research": "2026-08-20T22:55:00+05:30"
+}
